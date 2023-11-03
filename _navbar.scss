@@ -1,0 +1,51 @@
+
+
+.navbar {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem !important;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+
+
+    .logo{
+        color: rgb(233, 110, 110);
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+    .menu-links{
+        display: flex;
+        list-style: none;
+        gap: 14px;
+        height: 60px;
+        align-items: center;
+
+        &-item-link{
+            text-decoration: none;
+            color: rgb(241, 198, 198);
+            padding: 0 10px;
+
+        }
+    }
+    
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:30px ;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    img{
+        width: 100%;
+    }
+
+    
+
+
+}
